@@ -1,5 +1,5 @@
-var ScorePoints = 999;
-var GameLevels = 99
+var ScorePoints = 0;
+var GameLevels = 1
 var PointsToLevelUp = 10;
 var PointsPerClick = 1;
 
