@@ -1,0 +1,47 @@
+#Title1 {
+color: black;
+text-align: center;
+text-shadow: 30px;
+font-weight: 900;
+}
+
+#PointsHtml {
+    text-align: center; 
+    font-size: 50px;
+    font-weight: bold;
+}
+.Stats {
+position: absolute;
+z-index: auto;
+bottom: 0;
+left: 0%;
+width: 100px;
+height: auto;
+margin-left: auto
+}
+.AboutGame {
+    position: absolute;
+    z-index: auto;
+    bottom: 0;
+    left: 8%;
+    width: 100px;
+    height: auto;
+    margin-left: auto
+}
+.AddPointsHtml {
+    position: absolute;
+    margin: 100px;
+    margin-left: 42%;
+    width: 200px;
+    height: auto;
+}
+
+.LevelUp {
+    position: absolute;
+    z-index: auto;
+    bottom: 0;
+    left: 15%;
+    width: 109px;
+    height: auto;
+    margin-left: auto
+}
