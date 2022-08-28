@@ -32,6 +32,8 @@ function AddLevel() {
     alert("Поздравляю ты прошёл игру! " + "Игра была перезапущена!")
     GameLevels = 1
     ScorePoints = 1
+    PointsToLeveLUp = 10
+    return(GameLevels, ScorePoints, PointsToLevelUp)
     document.getElementById("PointsHtml").innerHTML=ScorePoints
     };
     return(PointsToLevelUp);
