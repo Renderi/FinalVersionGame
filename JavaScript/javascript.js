@@ -1,5 +1,5 @@
-var ScorePoints = 0;
-var GameLevels = 1
+var ScorePoints = 999;
+var GameLevels = 99
 var PointsToLevelUp = 10;
 var PointsPerClick = 1;
 
@@ -22,7 +22,7 @@ function AddLevel() {
  if (PointsToLevelUp > ScorePoints) {
     let Count1 = +PointsToLevelUp - +ScorePoints
     console.log(Count1)
-    alert("Недостаточно Поинтов!" + " " + "\nДля LvLUp нужно" + " " + PointsToLevelUp + " ( тебе не хватает поинтов " + " " + Count1 + ")");
+    alert("Недостаточно Поинтов!" + " " + "\nДля LvLUp нужно" + " " + PointsToLevelUp); //+ " ( тебе не хватает поинтов " + " " + Count1 + ")");
  } else {
     ScorePoints = ScorePoints - PointsToLevelUp;
     ++GameLevels;
@@ -32,9 +32,9 @@ function AddLevel() {
     alert("Поздравляю ты прошёл игру! " + "Игра была перезапущена!")
     GameLevels = 1
     ScorePoints = 1
-    PointsToLeveLUp = 10 * GameLevels;
-    return(GameLevels, ScorePoints, PointsToLevelUp);
+    PointsToLevelUp = 10 * GameLevels;
     document.getElementById("PointsHtml").innerHTML=ScorePoints;
+    return(GameLevels, ScorePoints, PointsToLevelUp);
     };
     return(PointsToLevelUp);
  }
